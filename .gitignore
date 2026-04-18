@@ -7,13 +7,15 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-# monitoring binaries
 monitoring/prometheus/
 monitoring/alertmanager/
 monitoring/blackbox_exporter/
+*.tfvars
 
 # raw tar files
 *.tar.gz
 
 # logs
 *.log
+# binaries_commands.txt
+# binaries_download.txt
