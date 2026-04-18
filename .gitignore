@@ -17,5 +17,6 @@ monitoring/blackbox_exporter/
 
 # logs
 *.log
+.idea
 # binaries_commands.txt
 # binaries_download.txt
