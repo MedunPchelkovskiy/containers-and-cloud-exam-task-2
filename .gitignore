@@ -1,0 +1,19 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# monitoring binaries
+monitoring/prometheus/
+monitoring/alertmanager/
+monitoring/blackbox_exporter/
+
+# raw tar files
+*.tar.gz
+
+# logs
+*.log
